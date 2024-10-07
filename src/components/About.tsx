@@ -12,9 +12,9 @@ const About = () => {
           className="w-32 h-32 rounded-full object-cover"
         />
         <p className="text-lg">
-          I'm a Full Stack Developer with a Master's degree in Computer Science from the University of Wisconsin – Milwaukee.
-          With experience in both frontend and backend technologies, I focus on creating scalable and efficient applications.
-          My passion lies in solving complex problems and building user-friendly interfaces.
+        I'm a Full Stack Developer with a Master's degree in Computer Science from the University of Wisconsin–Milwaukee. 
+        I have extensive experience working across both frontend and backend technologies, with a focus on creating scalable, efficient applications. 
+        My passion lies in tackling complex challenges and crafting user-friendly interfaces that deliver seamless experiences.
         </p>
       </div>
     </section>

@@ -7,7 +7,11 @@ const Education = () => {
       institution: "University of Wisconsin – Milwaukee",
       period: "September 2022 - May 2024"
     },
-    // Add your bachelor's degree or any other relevant education here
+    {
+      degree: "Bachelor's Degree, Electronics and Communication Engineering",
+      institution: "Sona College of Technology",
+      period: "Jun 2016 - Aug 2020"
+    }
   ]
 
   return (

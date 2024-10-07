@@ -25,7 +25,25 @@ const Experience = () => {
         "Implemented end-to-end integration of frontend and backend systems using RESTful APIs with Java Spring Boot and utilizing MySQL database, optimizing data flow processes while achieving a 40% reduction in API response times.",
         "Spearheaded a groundbreaking project utilizing Big Data and predictive analytics to develop digitalized knowledge models, enabling forward-thinking decision-making and improved results."
       ]
-    }
+    },
+    {
+      title: "Automation Engineer Intern",
+      company: "AXIS global automation",
+      location: "Tamil Nadu, IN",
+      period: "Jan 2020 - Mar 2020",
+      responsibilities: [
+        " Utilized SCADA and Programming Logic Controller Software to remove pathogens and toxic pollutants from water by 80% and to track if there is any malfunction in the operating devices."
+      ]
+    },
+    {
+      title: "Python Developer Trainee",
+      company: "Knowvic solution",
+      location: "Karnataka, IN",
+      period: "Jun 2019",
+      responsibilities: [
+        "  Leveraged industrial applications of Python to automate library processes, resulting in a 60% decrease in manual workload for library staff."
+      ]
+    },
   ]
 
   return (
