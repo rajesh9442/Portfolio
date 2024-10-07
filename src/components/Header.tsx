@@ -20,7 +20,7 @@ const Header = () => {
 
           {/* Desktop Menu */}
           <nav className="hidden md:block">
-            <ul className="flex space-x-6">
+            <ul className="flex space-x-6 flex-wrap"> {/* Added flex-wrap to handle overflow */}
               <NavItem href="#about" icon={<User size={18} />} text="About" />
               <NavItem href="#experience" icon={<Briefcase size={18} />} text="Experience" />
               <NavItem href="#projects" icon={<Code size={18} />} text="Projects" />
