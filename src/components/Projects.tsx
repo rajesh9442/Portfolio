@@ -6,6 +6,7 @@ import Chat from '../images/chat.png';
 import Notes from '../images/notes.png';
 import Recipe from '../images/recipe.png';
 import ML from '../images/ml.png';
+import Weather from '../images/weather.png';
 
 const Projects = () => {
   const projects = [
@@ -20,6 +21,7 @@ const Projects = () => {
       name: "LED Website",
       description: "Designed LED Website for a Company owner who required website for his company.",
       tags: ["React js", "JavaScript"],
+      demoLink: "https://led-website-lac.vercel.app/",
       githubLink: "https://github.com/rajesh9442/LED-Website",
       image: LED
     },
@@ -41,8 +43,17 @@ const Projects = () => {
       name: "Recipe Finder",
       description: "JavaScript-based recipe search engine with access to over 500,000 recipes.",
       tags: ["JavaScript", "API Integration"],
+      demoLink: "https://recipe-finder-blond-tau.vercel.app/",
       githubLink: "https://github.com/rajesh9442/RecipeFinder",
       image: Recipe
+    },
+    {
+      name: "Weather Today",
+      description: "Check today's weather using this application.",
+      tags: ["Angular", "TypeScript"],
+      demoLink: "https://weather-today-tau.vercel.app/",
+      githubLink: "https://github.com/rajesh9442/Weather-Today",
+      image: Weather
     },
     {
       name: "Image Detection",
@@ -72,6 +83,12 @@ const Projects = () => {
               ))}
             </div>
             <div className="flex justify-between items-center">
+              {/* Conditional rendering for the demo link */}
+              {project.demoLink && (
+                <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="flex items-center text-blue-600 dark:text-blue-400 hover:underline">
+                  <ExternalLink size={16} className="mr-1" /> Demo
+                </a>
+              )}
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="flex items-center text-gray-600 dark:text-gray-400 hover:underline">
                 <Github size={16} className="mr-1" /> GitHub
               </a>
