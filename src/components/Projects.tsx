@@ -7,9 +7,18 @@ import Notes from '../images/notes.png';
 import Recipe from '../images/recipe.png';
 import ML from '../images/ml.png';
 import Weather from '../images/weather.png';
+import ShapeViewer from '../images/ShapeViewer.png';
 
 const Projects = () => {
   const projects = [
+    {
+      name: "Shape Viewer",
+      description: "Developed a high-performance web application that visualizes and manipulates 2D shape data from user-uploaded files.",
+      tags: ["React js", "JavaScript", "HTML", "CSS"],
+      demoLink: "https://shape-viewer-seven.vercel.app/",
+      githubLink: "https://github.com/rajesh9442/ShapeViewer",
+      image: ShapeViewer
+    },
     {
       name: "Employee CRUD",
       description: "Full Stack Application for employee management using Java Spring Boot and TypeScript.",
