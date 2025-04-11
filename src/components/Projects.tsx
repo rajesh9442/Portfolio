@@ -8,6 +8,7 @@ import Recipe from '../images/recipe.png';
 import ML from '../images/ml.png';
 import Weather from '../images/weather.png';
 import ShapeViewer from '../images/ShapeViewer.png';
+import AudioMagic from '../images/AudioMagic.png';
 
 const Projects = () => {
   const projects = [
@@ -16,7 +17,7 @@ const Projects = () => {
       description: "An AI-powered web app that separates audio/video songs into vocals and music stems. Allows users to isolate and download their preferred stem, enabling uses like karaoke singing or music production.",
       tags:  ["React", "Python", "Machine Learning", "PyTorch", "FFMPEG"],
       githubLink: "https://github.com/rajesh9442/AudioMagic",
-      image: "https://audio-magic.vercel.app/"
+      image: AudioMagic
     },
     {
       name: "Shape Viewer",
@@ -69,7 +70,7 @@ const Projects = () => {
       tags: ["Angular", "TypeScript"],
       demoLink: "https://weather-today-tau.vercel.app/",
       githubLink: "https://github.com/rajesh9442/Weather-Today",
-      image: "https://raw.githubusercontent.com/rajesh9442/Weather-Today/blob/main/public/weather-today.png"
+      image: Weather
     },
     {
       name: "Image Detection",
