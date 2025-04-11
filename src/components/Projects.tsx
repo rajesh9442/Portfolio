@@ -12,6 +12,13 @@ import ShapeViewer from '../images/ShapeViewer.png';
 const Projects = () => {
   const projects = [
     {
+      name: "Audio Magic",
+      description: "An AI-powered web app that separates audio/video songs into vocals and music stems. Allows users to isolate and download their preferred stem, enabling uses like karaoke singing or music production.",
+      tags:  ["React", "Python", "Machine Learning", "PyTorch", "FFMPEG"],
+      githubLink: "https://github.com/rajesh9442/AudioMagic",
+      image: "https://audio-magic.vercel.app/"
+    },
+    {
       name: "Shape Viewer",
       description: "Developed a high-performance web application that visualizes and manipulates 2D shape data from user-uploaded files.",
       tags: ["React js", "JavaScript", "HTML", "CSS"],
@@ -62,7 +69,7 @@ const Projects = () => {
       tags: ["Angular", "TypeScript"],
       demoLink: "https://weather-today-tau.vercel.app/",
       githubLink: "https://github.com/rajesh9442/Weather-Today",
-      image: Weather
+      image: "https://raw.githubusercontent.com/rajesh9442/Weather-Today/blob/main/public/weather-today.png"
     },
     {
       name: "Image Detection",
